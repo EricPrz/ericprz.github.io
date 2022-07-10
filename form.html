@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+
+	<link rel="stylesheet" href="./css/flows.css">
+</head>
+
+<body>
+	<header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Taxis BCN Aeroport.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="file:///C:/Users/Eric/Documents/GitHub/Web/index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a class="nav__links">Reservar</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+    </header>
+
+	<div class="container">
+
+		<div class="title"> Formulario </div>
+
+		<form action="https://formsubmit.co/d1052061d51cbbdb6727c5d4961d32fc" method="POST">
+
+		
+  			<div class="user-details">
+
+  				<!--Nombre-->
+     			<div class="input-box">
+        			<span class="details">Nombre</span>
+        			<input type="text" name="nombre" placeholder="Enter your name"required>
+     			</div>
+
+     			<!--Telefono-->
+     			<div class="input-box">
+        			<span class="details">Telefono</span>
+        			<input type="tel" name="telefono" placeholder="Enter your telephone"required>
+     			</div>
+
+     			<!--Email-->
+     			<div class="input-box">
+        			<span class="details">Email</span>
+        			<input type="email" name="email" placeholder="Enter your email"required>
+     			</div>
+
+     			<!--Fecha de Recogida-->
+     			<div class="input-box">
+        			<span class="details">Fecha de Recogida</span>
+        			<input type="datetime-local" name="Fecha de Recogida" placeholder="Dia"required>
+     			</div>
+
+     			<!--Punto de recogida-->
+     			<div class="input-box">
+        			<span class="details">Punto de recogida</span>
+        			<input type="street-adress" name="punto de recogida" placeholder="Enter your name"required>
+     			</div>
+
+     			<!--Destino-->
+     			<div class="input-box">
+        			<span class="details">Destino</span>
+        			<input type="text" name="destino" placeholder="Enter your name"required>
+     			</div>
+
+     			<!--Numero de Pasajeros-->
+     			<div class="input-box">
+        			<span class="details">Numero de Pasajeros</span>
+        			<input type="number" name="Numero de Pasajeros" min="1" max="7" placeholder="Num"required>
+        		
+     			</div>
+
+     			<!--Numero de Maletas-->
+     			<div class="input-box">
+        			<span class="details">Numero de Maletas</span>
+        			<input type="number" name="Numero de Maletas" min="1" max="7" placeholder="Num"required>
+     			</div>
+
+     			<!--Datos Adicionales-->
+     			<div class="input-box">
+        			<span class="details">Datos Adicionales</span>
+        			<input type="text" name="Info Extra" placeholder="Enter your name"required>
+     			</div>
+
+
+
+
+ 			</div>
+     			<div>
+     				<button type="submit">Enviar</button>
+     			</div>
+		</form>
+
+	</div>
+</body>
+</html>
