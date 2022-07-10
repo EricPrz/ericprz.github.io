@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 :root {
-    --padding-container: 100px 0;
+    --padding-container: 45px 0;
     --color-title: #001A49;
 }
 
@@ -38,7 +38,7 @@ body {
     background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/foto1.jpg');
     background-size: cover;
     background-position: 50% 7%;
-    clip-path: polygon(0 0, 100% 0, 100% 94%, 50% 100%, 0 94%);
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 50% 94%, 0 86%);
     z-index: -1;
 }
 
