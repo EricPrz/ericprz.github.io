@@ -9,6 +9,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Form*/
+
+.title {
+    color: #000;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Portada*/
+
 .container {
     width: 90%;
     max-width: 1200px;
