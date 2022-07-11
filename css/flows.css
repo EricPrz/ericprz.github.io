@@ -86,14 +86,16 @@ body {
 
 .nav__img {
     display: block;
-    background-color: black;
     width: 30px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 
 .nav__close {
     display: var(--show, none);
-    background-color: black;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 
