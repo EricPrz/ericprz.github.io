@@ -5,17 +5,32 @@
     --color-title: #001A49;
 }
 
-body {
+/* Form*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-/* Form*/
-
-.title {
-    color: #000;
-    padding-bottom: 20px;
-    font-weight: normal;
+body2{
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    background:linear-gradient(135deg,#71b7e6,#9b59b6);
 }
+
+.container2{
+    max-width:700px;
+    width:100%;
+    background:#fff;
+    padding:25px 30px;
+    border-radius:5px;
+}
+
 
 /* Portada*/
 
