@@ -6,6 +6,32 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+        "Form Form"
+        "Fotito grid"
+        "Fotito BotonEnviar";
+    grid-gap: 1rem;
+}
+
+.Form {
+    grid-area: form;
+}
+  
+.grid {
+    grid-column: grid;
+}
+  
+.Fotito {
+    grid-row: Fotito;
+}
+  
+.BotonEnviar {
+    grid-column: BotonEnviar;
+}
+
 .input-box {
     display: flex;
     flex-direction: column;
