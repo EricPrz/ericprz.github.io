@@ -1,110 +1,111 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 
 body {
-    background: rgb(19, 19, 19);
-    color: #fff;
-    font-family: 'Noto Sans', sans-serif;
-    overflow-x: hidden;
+  background: rgb(19, 19, 19);
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .input-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #353535;
-    font-size: 3rem;
-    color: #fff;
-    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-    height: 100%;
-    width: 100%;
-    border-radius: 4px;
-    transition: all 500ms;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #353535;
+  font-size: 3rem;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
+    rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 500ms;
+  overflow: hidden;
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
- }
-  
-.input-box:hover {
-    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-    transform: translateY(-3px) scale(1.1);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.espacio{
-    margin: 100px;
+.input-box:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
+    rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+}
+
+.espacio {
+  margin: 100px;
 }
 .wrapper {
-    padding: 15px;
-    display: grid;
-    gap: 15px;
-    height: fit-content;
-    border-radius: 10px;
-    grid-template-columns: 2fr 1fr 2fr 1fr ;
-    grid-template-rows: 50px 1fr 1fr 50px;
-    background-color: #fff;
-    color: #444;
-    
+  padding: 15px;
+  display: grid;
+  gap: 15px;
+  height: fit-content;
+  border-radius: 10px;
+  grid-template-columns: 2fr 1fr 2fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 50px;
+  background-color: #fff;
+  color: #444;
 }
 
 .box {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
 
 .box .box {
-    background-color: #ccc;
-    color: #444;
+  background-color: #ccc;
+  color: #444;
 }
 
 .a {
-    grid-column: 2 / 5;
-    line-height: 0.3;
+  grid-column: 2 / 5;
+  line-height: 0.3;
 }
 
-.b{
-    grid-column: 2/5;
-    grid-row: 4;
-    line-height: 0.3;
-    padding: 0%;
+.b {
+  grid-column: 2/5;
+  grid-row: 4;
+  line-height: 0.3;
+  padding: 0%;
 }
 
-.enviar{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    left: 0%;
-    top: 0%;
-    border: 0cm;
-    border-radius: 5px;
-    background: transparent;
-    color: #fff;
-    font-size: 100%;
-    font-family: 'Noto Sans', sans-serif;
+.enviar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  border: 0cm;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 100%;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .c {
-    grid-column: 1;
-    grid-row: 1 / 5;
-    background-image: url("/foto.jpg");
-    background-size: cover;
-    background-position-x: 70%;
+  grid-column: 1;
+  grid-row: 1 / 5;
+  background-image: url("/foto.jpg");
+  background-size: cover;
+  background-position-x: 70%;
 }
 
-.d{
-    grid-column: 2 / 5;
-    grid-row: 2 / 4;
-    display: grid;
-    grid-template-columns: subgrid;
-    grid-template-rows: subgrid;
+.d {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
 }
