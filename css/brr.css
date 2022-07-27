@@ -1,8 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
-.grid{
-    display: grid;
-    gap: 1rem;
-
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}

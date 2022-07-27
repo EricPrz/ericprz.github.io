@@ -5,8 +5,6 @@
     --color-title: #001A49;
 }
 
-/* Form*/
-
 *{
     margin: 0;
     padding: 0;
@@ -23,22 +21,44 @@ main{
     height: 100%;
     width: 100%;
     display: flex;
-    padding:10px;
     background:linear-gradient(135deg,#71b7e6,#9b59b6);
 }
 
-.container2{
+/* Form*/
+
+.formspace{
     position: relative;
-    max-width:700px;
-    width:100%;
-    height:max-content;
-    background:#fff;
-    padding:25px 30px;
-    border-radius:5px;
+    width: 100%;
+    height: 78%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
     color: black;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
+    grid-template-rows: 40px 1fr 50px;
 }
 
+.user-details{
+    grid-column: col1 / col3;
+    gap: 15px;
+}
 
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
 /* Portada*/
 
 .container {
