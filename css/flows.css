@@ -28,9 +28,10 @@ main {
 
 .formspace {
   position: relative;
-  width: 100%;
-  height: 78%;
-  margin: 20px;
+  width: 97vw;
+  height: 78vh;
+  margin-left: 1.5vw;
+  margin-top: 3.3vh;
   padding: 20px;
   background-color: #fff;
   color: black;
