@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form-v10 by Colorlib</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/montserrat-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="form-v10">
+	<div class="page-content">
+		<div class="form-v10-content">
+			<form class="form-detail" action="https://formsubmit.co/d1052061d51cbbdb6727c5d4961d32fc" method="post" id="myform">
+				<div class="form-left">
+					<h2>Informacion de Contacto</h2>
+					<div class="form-row">
+						<select name="Genero de la Persona">
+						    <option class="option" value="Genero">Genero</option>
+						    <option class="option" value="Señor">Señor</option>
+						    <option class="option" value="Señora">Señora</option>
+						    <option class="option" value="Nose">Nose</option>
+						</select>
+						<span class="select-btn">
+						  	<i class="zmdi zmdi-chevron-down"></i>
+						</span>
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-1">
+							<input type="text" name="Nombre" id="first_name" class="input-text" placeholder="Nombre" required>
+						</div>
+						<div class="form-row form-row-2">
+							<input type="text" name="Apellidos" id="last_name" class="input-text" placeholder="Apellidos" required>
+						</div>
+						
+					</div>
+					<div class="form-row">
+						<input type="email" name="Correo Electronico" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Correo Electronico">
+					</div>
+					<div class="form-row">
+						<input type="tel" name="Numero de Telefono" class="phone" id="phone" placeholder="Numero de Telefono" required>
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-1">
+							<input type="number" name="Numero de Pasajeros" id="first_name" class="input-text" placeholder="Num Pasajeros" required min="1" max="6">
+						</div>
+						<div class="form-row form-row-2">
+							<input type="number" name="Numero de Maletas" id="last_name" class="input-text" placeholder="Num Maletas" required>
+						</div>
+					</div>
+				</div>
+				<div class="form-right">
+					<h2>Detalles de la Reserva</h2>
+					<h3>Origen:</h3>
+					<div class="form-row">
+						<input type="text" name="Direccion de Recogida" class="street" id="street" placeholder="Direccion de Recogida" required>
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-1">
+							<input type="text" name="Fecha de Recogida" class="additional" id="additional" placeholder="Fecha de Recogida" onfocus="(this.type='date')" id="date" required>
+						</div>
+						<div class="form-row">
+							<input type="time" name="Hora de Recogida" class="additional" id="additional" required>
+						</div>
+					</div>
+					<h3>Destino:</h3>
+					<div class="form-row">
+						<input type="text" name="Direccion de Destino" class="additional" id="additional" placeholder="Direccion y Poblacion de Destino" required>
+					</div>					
+					<div class="form-checkbox">
+						<label class="container"><p>I do accept the <a href="#" class="text">Terms and Conditions</a> of your site.</p>
+						  	<input type="checkbox">
+						  	<span class="checkmark"></span>
+						</label>
+					</div>
+					<div class="form-row-last">
+						<input type="submit" class="register" value="Enviar ">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
