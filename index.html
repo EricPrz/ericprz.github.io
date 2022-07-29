@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/estilos.css" />
     <meta name="theme-color" content="#2091F9" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -56,147 +58,83 @@
           <a href="form.html" class="cta">Reserva tu taxi</a>
         </div>
       </section>
+
+      <section id="sec-1">
+        <div class="container">
+          <a href="#sec-2">
+            <div class="scroll-down"></div>
+          </a>
+        </div>
+      </section>
+      <section id="sec-2">
+      </section>
     </header>
 
     <main>
-      <div class="Form-Style">
-        <div class="title"><h3 class="title">Formulario</h3></div>
-
-        <form
-          action="https://formsubmit.co/d1052061d51cbbdb6727c5d4961d32fc"
-          method="POST"
-        >
-          <div class="user-details">
-            <!--Nombre-->
-            <div class="input-box">
-              <span class="details">Nombre</span>
-              <input
-                type="text"
-                id="nombre"
-                placeholder="Enter your name"
-                required
-              />
-            </div>
-
-            <!--Telefono-->
-            <div class="input-box">
-              <span class="details">Telefono</span>
-              <input
-                type="tel"
-                id="telefono"
-                placeholder="Enter your telephone"
-                required
-              />
-            </div>
-
-            <!--Email-->
-            <div class="input-box">
-              <span class="details">Email</span>
-              <input
-                type="email"
-                id="email"
-                placeholder="Enter your email"
-                required
-              />
-            </div>
-
-            <!--Fecha de Recogida-->
-            <div class="input-box">
-              <span class="details">Fecha de Recogida</span>
-              <input
-                type="datetime-local"
-                id="Fecha de Recogida"
-                placeholder="Dia"
-                required
-              />
-            </div>
-
-            <!--Punto de recogida-->
-            <div class="input-box">
-              <span class="details">Punto de recogida</span>
-              <input
-                type="street-adress"
-                id="punto de recogida"
-                placeholder="Enter your name"
-                required
-              />
-            </div>
-
-            <!--Destino-->
-            <div class="input-box">
-              <span class="details">Destino</span>
-              <input
-                type="text"
-                id="destino"
-                placeholder="Enter your name"
-                required
-              />
-            </div>
-
-            <!--Numero de Pasajeros-->
-            <div class="input-box">
-              <span class="details">Numero de Pasajeros</span>
-              <input
-                type="number"
-                id="Numero de Pasajeros"
-                min="1"
-                max="7"
-                placeholder="Num"
-                required
-              />
-            </div>
-
-            <!--Numero de Maletas-->
-            <div class="input-box">
-              <span class="details">Numero de Maletas</span>
-              <input
-                type="number"
-                id="Numero de Maletas"
-                min="1"
-                max="7"
-                placeholder="Num"
-                required
-              />
-            </div>
-
-            <!--Datos Adicionales-->
-            <div class="input-box">
-              <span class="details">Datos Adicionales</span>
-              <input
-                type="text"
-                id="Info Extra"
-                placeholder="Enter your name"
-                required
-              />
+      <div class="service">
+        <div class="title">
+          <h2>Nuestros Servicios</h2>
+        </div>
+    
+        <div class="box">
+          <div class="card">
+            <i class="fas fa-bars"></i>
+            <h5>Web Development</h5>
+            <div class="pra">
+              <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+    
+              <p style="text-align: center;">
+                <a class="button" href="#">Read More</a>
+              </p>
             </div>
           </div>
-
-          <div class="booking-details">
-            <span class="booking-details-title">Detalles</span>
-
-            <div class="category">
-              <label for="">
-                <span class="dot one"></span>
-                <span class="gender">Male</span>
-              </label>
-
-              <label for="">
-                <span class="dot one"></span>
-                <span class="gender">Female</span>
-              </label>
-
-              <label for="">
-                <span class="dot one"></span>
-                <span class="gender">Helicoptero Apache</span>
-              </label>
+    
+          <div class="card">
+            <i class="far fa-user"></i>
+            <h5>Web Development</h5>
+            <div class="pra">
+              <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+    
+              <p style="text-align: center;">
+                <a class="button" href="#">Read More</a>
+              </p>
             </div>
           </div>
-
-          <div class="button">
-            <input type="submit" name="Enviar" />
+    
+          <div class="card">
+            <i class="far fa-bell"></i>
+            <h5>Web Development</h5>
+            <div class="pra">
+              <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+    
+              <p style="text-align: center;">
+                <a class="button" href="#">Read More</a>
+              </p>
+            </div>
           </div>
-        </form>
+        </div>
       </div>
+
+      <div class="grid-intro">
+        <div class="left">
+            <center>
+              <img src="/images/shapes.svg" alt="">
+            </center>       
+            <h2 class="intro-titulo">Titulo</h2>         
+            <p class="intro-texto">Los mejores taxis de Barcelona a tu servicio.</p>
+        </div>
+        <div class="mid">
+          <img src="/images/paint.svg" alt="">
+          <h2 class="intro-titulo">Titulo</h2>
+          <p class="intro-texto">Los mejores taxis de Barcelona a tu servicio.</p>
+        </div>
+        <div class="right">
+          <img src="/images/code.svg" alt="">
+          <h2 class="intro-titulo">Titulo</h2>
+          <p class="intro-texto">Los mejores taxis de Barcelona a tu servicio.</p>
+        </div>
+      </div>
+    
     </main>
 
     <script src="./js/slider.js"></script>
