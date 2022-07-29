@@ -28,6 +28,7 @@ body {
   display: grid;
   grid-template-rows: 100px 1fr;
   color: #fff;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .hero::before {
