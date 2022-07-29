@@ -37,7 +37,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%),
     url("../images/foto1.jpg");
   background-size: cover;
