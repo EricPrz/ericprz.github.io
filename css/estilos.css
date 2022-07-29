@@ -28,7 +28,9 @@ body {
   position: relative;
   display: grid;
   grid-template-rows: 100px 1fr;
-  color: #fff;
+  color: white;
+  background-color: #101010;
+  z-index: -2;
 }
 
 .hero::before {
