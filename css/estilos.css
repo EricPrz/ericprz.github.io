@@ -57,9 +57,10 @@ body {
 /* Boton de Ir pa abajo */
 
 #sec-1 {
+  opacity: 1;
 }
 #sec-2 {
-  background-color: aliceblue;
+  background-color: black;
 }
 .scroll-container{
   display: flex;
