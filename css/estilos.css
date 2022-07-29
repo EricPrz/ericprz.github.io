@@ -5,9 +5,7 @@
   --color-title: #001a49;
 }
 
-html{
-  scroll-behavior: smooth;
-}
+
 
 body {
   font-family: "Poppins", sans-serif;
@@ -63,12 +61,16 @@ body {
 #sec-2 {
   background-color: aliceblue;
 }
+.scroll-container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 .scroll-down {
   height: 10vh;
-  width: 3vw;
+  width: 30px;
   border: 2px solid white;
-  position: absolute;
-  left: 47.8vw;
+  position: relative;
   bottom: 8vh;
   border-radius: 50px;
   cursor: pointer;
@@ -162,8 +164,8 @@ body {
 
 .title h2{
 	color: white;
-	font-size: 75px;
-	width: 1130px;
+	font-size: 65px;
+	width: 80%;
 	margin: 30px auto;
 	text-align: center;
 }
@@ -204,6 +206,7 @@ h5{
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
+  height: fit-content;
 }
 .card .button{
 	background-color:#2091f9;
@@ -300,6 +303,24 @@ h5{
 }
 
 /* Media queries */
+
+@media (max-width: 1085px) {
+  .card{
+    height: 385px;
+  }
+}
+
+@media (max-width: 960px){
+  .box{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+  }
+
+  .card{
+    height: 365px;
+  }
+}
 
 @media (max-width: 800px) {
   .nav__menu {
