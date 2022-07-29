@@ -6,8 +6,8 @@ body {
 }
 .boton{
 	position: absolute;
-	top: 4vh;
-	left: 1.7vw;
+	margin: 2.25% 2%;
+	
 }
 
 /* CSS */
@@ -78,6 +78,7 @@ h3{
 	background-image: -moz-linear-gradient( 136deg, rgb(149,153,226) 0%, rgb(139,198,236) 100%);
     background-image: -webkit-linear-gradient( 136deg, rgb(149,153,226) 0%, rgb(139,198,236) 100%);
     background-image: -ms-linear-gradient( 136deg, rgb(149,153,226) 0%, rgb(139,198,236) 100%);
+	z-index: -1;
 }
 .form-v10-content  {
 	background: #fff;
@@ -356,7 +357,7 @@ h3{
 /* Responsive */
 @media screen and (max-width: 1199px) {
 	.form-v10-content {
-		margin:  95px 20px;
+		margin:  2.25% 20px;
 	}
 }
 @media screen and (max-width: 991px) and (min-width: 768px) {
