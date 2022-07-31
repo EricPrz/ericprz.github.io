@@ -1,5 +1,6 @@
 body {
 	margin:  0;
+	overflow-x: hidden;
 }
 ::-webkit-calendar-picker-indicator {
     filter: invert(1);
@@ -7,7 +8,6 @@ body {
 .boton{
 	position: absolute;
 	margin: 2.25% 2%;
-	
 }
 
 /* CSS */
@@ -60,8 +60,8 @@ h3{
 .page-content {
 	position: absolute;
 	width: 100%;
-	height: fit-content;
-	margin:  0 auto;
+	height: 100%;
+	margin:  0px 0px;
 	background: #75e2e9;
 	display: flex;
 	display: -webkit-flex;
@@ -83,7 +83,7 @@ h3{
 .form-v10-content  {
 	background: #fff;
 	width: 1100px;
-	height: 90%;
+	height: fit-content;
 	border-radius: 10px;
 	-o-border-radius: 10px;
 	-ms-border-radius: 10px;
@@ -399,6 +399,10 @@ h3{
 	.form-v10-content .form-detail .form-left {
 		padding-bottom: 50px;
 	}
+
+	.page-content{
+		position: relative;
+	}
 }
 @media screen and (max-width: 575px) {
 	.form-v10-content .form-detail .form-group {
@@ -455,4 +459,5 @@ h3{
 	.form-v10-content .form-detail .form-left {
 		padding-bottom: 50px;
 	}
+	
 }
