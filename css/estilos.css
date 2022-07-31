@@ -315,6 +315,10 @@ h5{
     grid-template-rows: 3;
   }
 
+  .service{
+    height: fit-content;
+  }
+
   .card{
     height: 365px;
   }
